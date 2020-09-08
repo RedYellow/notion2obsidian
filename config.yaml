@@ -1,0 +1,20 @@
+# No need to change these
+TZ: "America/Los_Angeles"
+NOTION_API: 'https://www.notion.so/api/v3'
+
+# Change these
+EXPORT_DIR: ""
+#leave blank for current working directory, otherwise must end with /
+EXPORT_FILENAME: '' 
+# must end with .zip
+EXTRACT_DIR: ""
+# the folder which you want the files to be placed in
+
+# Overwrite the old exports or keep them? Will attach timestamps to filename
+OVERWRITE: False
+
+# Your token and space_id here
+# To get these, see step 2 here:
+# https://medium.com/@arturburtsev/automated-notion-backups-f6af4edc298d
+NOTION_TOKEN_V2: ""
+NOTION_SPACE_ID: ""
